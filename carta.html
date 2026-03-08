@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Para ti, Heilyn 🎀</title>
+
+
+    <style>
+        body { background: #fff0f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: 'Arial', sans-serif; }
+        .boton-sorpresa {
+            position: fixed; top: 5%; padding: 10px; background: #ff7bac; color: white;
+            border: none; border-radius: 20px; cursor: pointer; writing-mode: vertical-rl;
+            text-orientation: mixed; font-weight: bold; box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+        }
+        #boton-izq { left: 20px; }
+        #boton-der { right: 20px; }
+        h1 { color: #ff6699; }
+    </style>
+</head>
+<body>
+    <h1>Bienvenida, Heilyn 🎀</h1>
+    <button id="boton-izq" class="boton-sorpresa" onclick="window.location.href='xd.html'">Tóqueme que tengo una sorpresa</button>
+    <button id="boton-der" class="boton-sorpresa" onclick="window.location.href='xd.html'">Tóqueme que tengo una sorpresa</button>
+ 
+    <div class="contenedor-kitty">
+    <img src="hello kitty.png" alt="Hello Kitty con manzana" class="kitty-animada">
+    <h2 class="mensaje-peliroja">ojala te guste mujer
+     perdon por lo poquito pero lastimosamente
+     no estoy alla en el barrio 
+     para darte algo fisico 💗</h2>
+</div>
+
+<style>
+    .contenedor-kitty {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .kitty-animada {
+        width: 250px; /* Tamaño ajustado para que se vea completa */
+        animation: saltar 2s ease-in-out infinite;
+    }
+
+    .mensaje-peliroja {
+        color: #ff6699;
+        font-family: 'Arial', sans-serif;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    @keyframes saltar {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-15px); }
+    }
+</style>
+</body>
+</html>
